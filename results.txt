@@ -1,0 +1,17 @@
+-- after inserted data
+TABLE_NAME|CURRENT_SIZE|ESTIMATED_SIZE|BENEFIT_PERCENT|
+----------|------------|--------------|---------------|
+PRODUCTS  |          24|         18.02|             25|
+DETAILS   |           3|          2.02|             33|
+
+-- after deleted 90% data
+TABLE_NAME|CURRENT_SIZE|ESTIMATED_SIZE|BENEFIT_PERCENT|
+----------|------------|--------------|---------------|
+PRODUCTS  |          24|           1.6|             93|
+DETAILS   |           3|          0.21|             93|
+
+-- after alter table
+TABLE_NAME|CURRENT_SIZE|ESTIMATED_SIZE|BENEFIT_PERCENT|
+----------|------------|--------------|---------------|
+PRODUCTS  |           3|           1.6|             47|
+DETAILS   |        0.31|          0.21|             33|
